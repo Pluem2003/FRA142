@@ -9,7 +9,7 @@
 - เรียนและทำความเข้าใจเนื้อหาในเรื่อง pointers จากอาจารย์โซ่
 - วิดีโอสำหรับทบทวน Concept ของ pointers เพิ่มเติม: 
     1. แบบสั้น ๆ : [concept_of_pointers](https://www.youtube.com/watch?v=UvoHwFvAvQE&t=186s&ab_channel=saikumar)
-    2. แบบละเอียดยิบ :[pointers_in_cpp](https://www.youtube.com/watch?v=zuegQmMdy8M&t=619s&ab_channel=freeCodeCamp.org)
+    2. แบบละเอียดยิบ : [pointers_in_cpp](https://www.youtube.com/watch?v=zuegQmMdy8M&t=619s&ab_channel=freeCodeCamp.org)
 <p align="center">
 <img src="../Image/pointers-concept.png"> </br>
 </p>
