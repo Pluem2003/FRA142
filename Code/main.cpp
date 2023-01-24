@@ -70,7 +70,9 @@ void variabletypes(){
 }
 
 void switchCase(){
-    int monthNum = 5;
+
+    int monthNum = 2;
+    
     switch (monthNum){
         case 1:
             cout << "January" << endl;
@@ -153,8 +155,8 @@ void forLoop(){
 
 int main(){
     // variabletypes();
-    // switchCase();
-    ifElse();
+    switchCase();
+    // ifElse();
     // doWhileLoop();
     // whileLoop();
     // forLoop();

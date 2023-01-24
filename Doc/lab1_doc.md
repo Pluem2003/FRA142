@@ -82,8 +82,10 @@
  2. Switch-Case Condition<br>
     Switch-Case Condition เป็นการสร้างเงื่อนไขโดยใช้ตัวแปรในลักษณะเดียวกันกับ If-Else Condition <u>แต่จะมีความแตกต่างในการสั่งการและการสร้างเงื่อนไข</u><br>
     - Switch-Case Condition จะทำการ <u>สั่งการโดยพิจารณาแบบเฉพาะเจาะจงไปที่เงื่อนไขที่มีรูปแบบนั้นทันที</u> ต่างจาก If-Else Condition ที่สั่งการเป็นลำดับก่อนหลัง
-    - Switch-Case Condition จะสร้างเงื่อนไขโดยการเจาะจงค่าของตัวแปรที่เรากำหนดไว้โดยไม่ซ้ำกัน ตัวอย่างเช่น
-    <center>image</center>
+    - Switch-Case Condition จะสร้างเงื่อนไขโดยการเจาะจงค่าของตัวแปรที่เรากำหนดไว้โดยไม่ซ้ำกัน
+    <center><img title="ตัวแปรที่ใช้ในการกำหนดเงื่อนไข" src="../Image/conditionVar2.png"><br>ตัวแปรที่ใช้ในการกำหนดเงื่อนไข<br></center>
+    <center><img title="วิธีการสร้างเงื่อนไขด้วย Switch-Case" src="../Image/createSwitchcase.png"><br>วิธีการสร้างเงื่อนไขด้วย Switch-Case<br></center>
+    <center><img title="ผลลัพธ์จากโปรแกรมที่ได้สร้างเงื่อนไขและตัวแปรตามรูปข้างต้น" src="../Image/conditionResult2.png"><br>ผลลัพธ์จากโปรแกรมที่ได้สร้างเงื่อนไขและตัวแปรตามรูปข้างต้น</center>
 
     
 ### Loop
