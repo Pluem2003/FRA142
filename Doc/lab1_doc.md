@@ -57,12 +57,12 @@
 
 6. Array <br>
    Array จะเป็น variable ที่ใช้เก็บข้อมูลเป็นกลุ่มอย่างโดยจะสร้างขึ้นจาก Variable พื้นฐาน เช่น Int Float Char เป็นต้น<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Array of character" src="../Image/charArrDefining.png"><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Array of character" src="../Image/definingCharArr.png"><br>
    วิธีการประกาศตัวแปรและค่า Array of characters</center>
    <center><img title="ขนาดและความยาวของ Array of character" src="../Image/charArrData.png"><br>
    ขนาดและความยาวของ Array of characters</center>
    จากขนาดและความยาวที่แตกต่างกันในกรณีพิเศษของ Array of characters จะมีการเก็บ '\0' ไว้เป็นตัวสุดท้ายเสมอเพื่อบอกตำแหน่งการสิ้นสุดของข้อมูลที่จัดเก็บอยู่<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Array of int" src="../Image/intArrDefining.png"><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Array of int" src="../Image/definingIntArr.png"><br>
    วิธีการประกาศตัวแปรและค่า Array of characters</center>
    <center><img title="ขนาดและความยาวของ Array of int" src="../Image/intArrData.png"></center><br>
    จากทั้ง 2 ตัวอย่างขนาดของข้อมูลของ Array จะขึ้นอยู่กับชนิดของ Variable ที่ใช่ในการสร้างและจำนวนข้อมูลที่เก็บอยู่<br>
