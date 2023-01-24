@@ -56,16 +56,22 @@
    ตัวอย่างข้อมูล Boolean Variable หลังกำหนดค่า</center><br>
 
 6. Array <br>
-   Array จะเป็น variable ที่ใช้เก็บข้อมูลเป็นกลุ่มอย่างโดยจะสร้างขึ้นจาก Variable พื้นฐาน เช่น Int Float Char เป็นต้น<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Array of character" src="../Image/charArrDefining.png"></center>
+   Array จะเป็น variable ที่ใช้เก็บข้อมูลเป็นกลุ่มอย่างโดยจะสร้างขึ้นจาก Variable พื้นฐาน เช่น Int Float Char เป็นต้น
+
+   <center><img title="วิธีการประกาศตัวแปรและค่า Array of character" src="../Image/charArrDefining.png"></center><br>
    <center>วิธีการประกาศตัวแปรและค่า Array of character</center>
-   <center><img title="ขนาดและความยาวของ Array of character" src="../Image/charArrData.png"></center>
+
+   <center><img title="ขนาดและความยาวของ Array of character" src="../Image/charArrData.png"></center><br>
    <center>ขนาดและความยาวของ Array of character</center>
-   จากขนาดและความยาวที่แตกต่างกันในกรณีพิเศษของ Array of characters จะมีการเก็บ '\0' ไว้เป็นตัวสุดท้ายเสมอเพื่อบอกตำแหน่งการสิ้นสุดของข้อมูลที่จัดเก็บอยู่<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Array of int" src="../Image/intArrDefining.png"></center>
+
+   จากขนาดและความยาวที่แตกต่างกันในกรณีพิเศษของ Array of characters จะมีการเก็บ '\0' ไว้เป็นตัวสุดท้ายเสมอเพื่อบอกตำแหน่งการสิ้นสุดของข้อมูลที่จัดเก็บอยู่
+
+   <center><img title="วิธีการประกาศตัวแปรและค่า Array of int" src="../Image/intArrDefining.png"></center><br>
    <center>วิธีการประกาศตัวแปรและค่า Array of Int</center>
-   <center><img title="ขนาดและความยาวของ Array of int" src="../Image/intArrData.png"></center>
+
+   <center><img title="ขนาดและความยาวของ Array of int" src="../Image/intArrData.png"></center><br>
    <center>ขนาดและความยาวของ Array of Int</center>
+
    จากทั้ง 2 ตัวอย่างขนาดของข้อมูลของ Array จะขึ้นอยู่กับชนิดของ Variable ที่ใช่ในการสร้างและจำนวนข้อมูลที่เก็บอยู่<br>
    ** ข้อกำหนดสำคัญของ Array **<br>
    - Array ไม่สามารถเปลี่ยนแปลงขนาดใหม่หลังจากประกาศแล้วได้อีก
