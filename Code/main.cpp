@@ -5,40 +5,17 @@ using namespace std;
 
 void variabletypes(){
 
-    char charVariable;
-    int intVariable;
-    double doubleVariable;
-    float floatVariable;
-    bool booleanVariable;
+    char charVariable; // การประกาศตัวแปร
+    int intVariable; // การประกาศตัวแปร
+    double doubleVariable; // การประกาศตัวแปร
+    float floatVariable; // การประกาศตัวแปร
+    bool booleanVariable; // การประกาศตัวแปร
 
     cout << "-----------------------------------------------------" << endl;
     cout << "Value of intVariable : " << intVariable << endl;
     cout << "Size of intVariable : " << sizeof(intVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    cout << "Value of doubleVariable : " << doubleVariable << endl;
-    cout << "Size of doubleVariable : " << sizeof(doubleVariable) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-    cout << "Value of floatVariable : " << floatVariable << endl;
-    cout << "Size of floatVariable : " << sizeof(floatVariable) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-
-    intVariable = 100;
-    doubleVariable = 10.5;
-    floatVariable = 100.5;
-
-    char charArrayVariable[] = "Hello World!";
-    int intArrayVariable[] = {1, 2, 3, 4};
-
-    cout << "Character : " << charVariable << endl;
-    cout << "Size of charVariable : " << sizeof(charVariable) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-    charVariable = 116;
-    cout << "Character : " << charVariable << endl;
-    charVariable = 't';
-    cout << "Character : " << charVariable << endl;
-    cout << "Size of charVariable : " << sizeof(charVariable) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-
+    intVariable = 100; // การกำหนดค่าตัวแปร
     cout << "Value of intVariable : " << intVariable << endl;
     cout << "Size of intVariable : " << sizeof(intVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
@@ -46,18 +23,39 @@ void variabletypes(){
     cout << "Value of doubleVariable : " << doubleVariable << endl;
     cout << "Size of doubleVariable : " << sizeof(doubleVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
+    doubleVariable = 10.5; // การกำหนดค่าตัวแปร
+    cout << "Value of doubleVariable : " << doubleVariable << endl;
+    cout << "Size of doubleVariable : " << sizeof(doubleVariable) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
 
     cout << "Value of floatVariable : " << floatVariable << endl;
     cout << "Size of floatVariable : " << sizeof(floatVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
+    floatVariable = 100.5; // การกำหนดค่าตัวแปร
+    cout << "Value of floatVariable : " << floatVariable << endl;
+    cout << "Size of floatVariable : " << sizeof(floatVariable) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Character : " << charVariable << endl;
+    cout << "Size of charVariable : " << sizeof(charVariable) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+    charVariable = 116; // การกำหนดค่าตัวแปร
+    cout << "Character : " << charVariable << endl;
+    charVariable = 't'; // การกำหนดค่าตัวแปร
+    cout << "Character : " << charVariable << endl;
+    cout << "Size of charVariable : " << sizeof(charVariable) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
 
     cout << "Value of booleanVariable : " << booleanVariable << endl;
     cout << "Size of booleanVariable : " << sizeof(booleanVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    booleanVariable = (doubleVariable < floatVariable);
+    booleanVariable = (doubleVariable < floatVariable); // การกำหนดค่าตัวแปร
     cout << "Value of booleanVariable : " << booleanVariable << endl;
     cout << "Size of booleanVariable : " << sizeof(booleanVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
+
+    char charArrayVariable[] = "Hello World!"; // การประกาศและกำหนดค่าตัวแปร
+    int intArrayVariable[] = {1, 2, 3, 4}; // การประกาศและกำหนดค่าตัวแปร
 
     cout << "Character array : " << charArrayVariable << endl;
     cout << "Size of character array : " << sizeof(charArrayVariable) << " bytes." << endl;
@@ -154,11 +152,11 @@ void forLoop(){
 }
 
 int main(){
-    // variabletypes();
+    variabletypes();
     // switchCase();
     // ifElse();
     // doWhileLoop();
-    whileLoop();
+    // whileLoop();
     // forLoop();
     return 0;
 }
