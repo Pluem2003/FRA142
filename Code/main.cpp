@@ -11,15 +11,6 @@ void variabletypes(){
     float floatExample;
     bool booleanExample;
 
-    int intExample;
-    intExample = 100;
-
-    float floatExample;
-    floatExample = 100.5;
-
-    double doubleExample;
-    doubleExample = 10.5;
-
     cout << "-----------------------------------------------------" << endl;
     cout << "Value of intExample : " << intExample << endl;
     cout << "Size of intExample : " << sizeof(intExample) << " bytes." << endl;
@@ -37,11 +28,13 @@ void variabletypes(){
 
     char charArrayExample[13] = "Hello World!";
 
-    cout << "Charactor : " << charExample << endl;
+    cout << "Character : " << charExample << endl;
+    cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
     charExample = 116;
-    cout << "Charactor : " << charExample << endl;
+    cout << "Character : " << charExample << endl;
     charExample = 't';
-    cout << "Charactor : " << charExample << endl;
+    cout << "Character : " << charExample << endl;
     cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 

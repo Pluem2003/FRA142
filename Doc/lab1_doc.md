@@ -7,7 +7,7 @@
 ### Variable Types
 การเก็บข้อมูลในตัวแปรต่างๆของการเขียนโปรแกรมจะถูกจัดเก็บอยู่ในระบบ binary data ที่จะแปลงสิ่งที่เราใส่เข้าไปให้กลายเป็นข้อมูลในระบบเลขฐาน 2 เช่น 5 จะกลายเป็น 101 เป็นต้น <br>
 ซึ่งการประกาศตัวแปรสำหรับใช้งานใน C++ สามารถทำได้ด้วยการ
-<center><img title="วิธีการประกาศตัวแปรใน C++" src="Image/defineVar.png"><br>
+<center><img title="วิธีการประกาศตัวแปรใน C++" src="Image/definingVar.png"><br>
 วิธีการประกาศตัวแปรใน C++</center>
 
 1. Int Variable <br>
@@ -39,12 +39,17 @@
 
 4. Character Variable <br>
    Character Variable เป็นตัวแปรพื้นฐานของ C++ ที่ใช้บรรจุข้อมูลตัวอักษร โดยข้อมูลที่เราประกาศค่าให้กับตัวแปรจะสามารถอยู่ในรูปแบบของ ตัวอักษร หรือ รหัส ASCII ก็ได้<br>
-   <center><img title="ตัวอย่างข้อมูล Character Variable ก่อนกำหนดค่า" src="Image/doubleVarUndefined.png"><br>
-   ตัวอย่างข้อมูล Double Variable ก่อนกำหนดค่า</center>
-   <center><img title="ตัวอย่างข้อมูล Double Variable หลังกำหนดค่า" src="Image/doubleVarDefined.png"><br>
-   ตัวอย่างข้อมูล Double Variable หลังกำหนดค่า</center><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Character Variable" src="Image/definingChar.png"><br>
+   วิธีการประกาศตัวแปรและค่า Character Variable</center>
+   <center><img title="ตัวอย่างข้อมูล Character Variable ก่อนกำหนดค่า" src="Image/charVarUndefined.png"><br>
+   ตัวอย่างข้อมูล Character Variable ก่อนกำหนดค่า</center>
+   <center><img title="ตัวอย่างข้อมูล Character Variable หลังกำหนดค่า" src="Image/charVarDefined.png"><br>
+   ตัวอย่างข้อมูล Character Variable หลังกำหนดค่า</center><br>
 
 5. Boolean Variable <br>
+
+6. Array <br>
+   Array จะเป็น variable ที่ใช้เก็บข้อมูลเป็นกลุ่มอย่างโดยจะสร้างขึ้นจาก Variable พื้นฐาน เช่น Int Float Char เป็นต้น<br>
 
 ### Function
 Function สำหรับ C++ จะมีรูปแบบการประกาศได้ 2 แบบหลักๆ คือ การประกาศแบบมีการ return ข้แมูลกลับสู่ global และไม่มีการ return<br>
@@ -71,7 +76,7 @@ Function สำหรับ C++ จะมีรูปแบบการประ
 2. While-Loop <br>
 
 ## In-Lab
-- สร้างโปรแกรมที่ช่วยให้พี่ปุ้นคำนวณค่าข้าวทั้งหมดใน 1 เดือน โดยพี่ปุ้นจะกินข้าวแพงขึ้นเป็น 2 เท่าของเมื่อวานหากเป็นวันคู่ และลดลง 10 บาทเมื่อเป็นวันคี่่<br>
+- สร้างโปรแกรมที่ช่วยให้พี่ปุ้นคำนวณค่าข้าวทั้งหมดใน 1 เดือน โดยพี่ปุ้นจะกินข้าวแพงขึ้น 1.2 เท่าจากวันล่าสุดที่กินข้าวหากเป็นวันคู่ และถูกลง 0.8 เท่าจากวันล่าสุดที่กินข้าวหากเป็นวันคี่่ และทุกๆวันที่ 15 พี่ปุ้นจะอดข้าวเพื่อเก็บเงินไว้กินกุ้งเผา<br>
 ( กำหนดให้ 1 เดือนมี 30 วัน เริ่มต้นจากวันที่ 1 )
 ## Post-Lab
 เช็คงานกับพี่ๆ T.A. ในคลาส LAB หรือในช่วง Office Hour
