@@ -5,67 +5,67 @@ using namespace std;
 
 void variabletypes(){
 
-    char charExample;
-    int intExample;
-    double doubleExample;
-    float floatExample;
-    bool booleanExample;
+    char charVariable;
+    int intVariable;
+    double doubleVariable;
+    float floatVariable;
+    bool booleanVariable;
 
     cout << "-----------------------------------------------------" << endl;
-    cout << "Value of intExample : " << intExample << endl;
-    cout << "Size of intExample : " << sizeof(intExample) << " bytes." << endl;
+    cout << "Value of int variable : " << intVariable << endl;
+    cout << "Size of int variable : " << sizeof(intVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    cout << "Value of doubleExample : " << doubleExample << endl;
-    cout << "Size of doubleExample : " << sizeof(doubleExample) << " bytes." << endl;
+    cout << "Value of double variable : " << doubleVariable << endl;
+    cout << "Size of double variable : " << sizeof(doubleVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    cout << "Value of floatExample : " << floatExample << endl;
-    cout << "Size of floatExample : " << sizeof(floatExample) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-
-    intExample = 100;
-    doubleExample = 10.5;
-    floatExample = 100.5;
-
-    char charArrayExample[] = "Hello World!";
-    int intArrayExample[] = {1, 2, 3, 4};
-
-    cout << "Character : " << charExample << endl;
-    cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-    charExample = 116;
-    cout << "Character : " << charExample << endl;
-    charExample = 't';
-    cout << "Character : " << charExample << endl;
-    cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
+    cout << "Value of float variable : " << floatVariable << endl;
+    cout << "Size of float variable : " << sizeof(floatVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 
-    cout << "Value of intExample : " << intExample << endl;
-    cout << "Size of intExample : " << sizeof(intExample) << " bytes." << endl;
+    intVariable = 100;
+    doubleVariable = 10.5;
+    floatVariable = 100.5;
+
+    char charArrayVariable[] = "Hello World!";
+    int intArrayVariable[] = {1, 2, 3, 4};
+
+    cout << "Character : " << charVariable << endl;
+    cout << "Size of char variable : " << sizeof(charVariable) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+    charVariable = 116;
+    cout << "Character : " << charVariable << endl;
+    charVariable = 't';
+    cout << "Character : " << charVariable << endl;
+    cout << "Size of char variable : " << sizeof(charVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 
-    cout << "Value of doubleExample : " << doubleExample << endl;
-    cout << "Size of doubleExample : " << sizeof(doubleExample) << " bytes." << endl;
+    cout << "Value of int variable : " << intVariable << endl;
+    cout << "Size of int variable : " << sizeof(intVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 
-    cout << "Value of floatExample : " << floatExample << endl;
-    cout << "Size of floatExample : " << sizeof(floatExample) << " bytes." << endl;
+    cout << "Value of double variable : " << doubleVariable << endl;
+    cout << "Size of double variable : " << sizeof(doubleVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 
-    cout << "Value of booleanExample : " << booleanExample << endl;
-    cout << "Size of booleanExample : " << sizeof(booleanExample) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-    booleanExample = (doubleExample < floatExample);
-    cout << "Value of booleanExample : " << booleanExample << endl;
-    cout << "Size of booleanExample : " << sizeof(booleanExample) << " bytes." << endl;
+    cout << "Value of float variable : " << floatVariable << endl;
+    cout << "Size of float variable : " << sizeof(floatVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 
-    cout << "Character array : " << charArrayExample << endl;
-    cout << "Size of character array : " << sizeof(charArrayExample) << " bytes." << endl;
-    cout << "Length of character array : " << (sizeof(charArrayExample)/sizeof(char))-1 << " letters." << endl;
+    cout << "Value of boolean variable : " << booleanVariable << endl;
+    cout << "Size of boolean variable : " << sizeof(booleanVariable) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    cout << "Int array : {" << intArrayExample[0] << ", " << intArrayExample[1] << ", " << intArrayExample[2] << ", " << intArrayExample[3] << "}" << endl;
-    cout << "Size of int array : " << sizeof(intArrayExample) << " bytes." << endl;
-    cout << "Length of int array : " << (sizeof(intArrayExample)/sizeof(int)) << " numbers." << endl;
+    booleanVariable = (doubleVariable < floatVariable);
+    cout << "Value of boolean variable : " << booleanVariable << endl;
+    cout << "Size of boolean variable : " << sizeof(booleanVariable) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Character array : " << charArrayVariable << endl;
+    cout << "Size of character array : " << sizeof(charArrayVariable) << " bytes." << endl;
+    cout << "Length of character array : " << (sizeof(charArrayVariable)/sizeof(char))-1 << " letters." << endl;
+    cout << "-----------------------------------------------------" << endl;
+    cout << "Int array : {" << intArrayVariable[0] << ", " << intArrayVariable[1] << ", " << intArrayVariable[2] << ", " << intArrayVariable[3] << "}" << endl;
+    cout << "Size of int array : " << sizeof(intArrayVariable) << " bytes." << endl;
+    cout << "Length of int array : " << (sizeof(intArrayVariable)/sizeof(int)) << " numbers." << endl;
     cout << "-----------------------------------------------------" << endl;
 }
 
