@@ -7,43 +7,43 @@
 ### Variable Types
 การเก็บข้อมูลในตัวแปรต่างๆของการเขียนโปรแกรมจะถูกจัดเก็บอยู่ในระบบ binary data ที่จะแปลงสิ่งที่เราใส่เข้าไปให้กลายเป็นข้อมูลในระบบเลขฐาน 2 เช่น 5 จะกลายเป็น 101 เป็นต้น <br>
 ซึ่งการประกาศตัวแปรสำหรับใช้งานใน C++ สามารถทำได้ด้วยการ
-<center><img title="วิธีการประกาศตัวแปรใน C++" src="Image/definingVar.png"><br>
+<center><img title="วิธีการประกาศตัวแปรใน C++" src="../Image/definingVar.png"><br>
 วิธีการประกาศตัวแปรใน C++</center>
 
 1. Int Variable <br>
    Int Variable เป็นตัวแปรพื้นฐานของ C++ ที่ใช้บรรจุข้อมูลที่เป็นจำนวนเต็มที่สามารถระบุค่าความเป็นบวกหรือลบของข้อมูลได้ด้วย bit ตัวแรกของ variables<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Int Variable" src="Image/definingInt.png"><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Int Variable" src="../Image/definingInt.png"><br>
    วิธีการประกาศตัวแปรและค่า Int Variable</center>
-   <center><img title="ตัวอย่างข้อมูล Int Variable ก่อนกำหนดค่า" src="Image/intVarUndefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Int Variable ก่อนกำหนดค่า" src="../Image/intVarUndefined.png"><br>
    ตัวอย่างข้อมูล Int Variable ก่อนกำหนดค่า</center>
-   <center><img title="ตัวอย่างข้อมูล Int Variable หลังกำหนดค่า" src="Image/intVarDefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Int Variable หลังกำหนดค่า" src="../Image/intVarDefined.png"><br>
    ตัวอย่างข้อมูล Int Variable หลังกำหนดค่า</center><br>
 
 2. Float Variable <br>
    Float Variable เป็นตัวแปรพื้นฐานของ C++ ที่ใช้บรรจุข้อมูลที่เป็นจำนวนจริงที่สามารถระบุค่าความเป็นบวกหรือลบของข้อมูลได้ด้วย bit ตัวแรกของ variables<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Float Variable" src="Image/definingFloat.png"><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Float Variable" src="../Image/definingFloat.png"><br>
    วิธีการประกาศตัวแปรและค่า Float Variable</center>
-   <center><img title="ตัวอย่างข้อมูล Float Variable ก่อนกำหนดค่า" src="Image/floatVarUndefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Float Variable ก่อนกำหนดค่า" src="../Image/floatVarUndefined.png"><br>
    ตัวอย่างข้อมูล Float Variable ก่อนกำหนดค่า</center>
-   <center><img title="ตัวอย่างข้อมูล Float Variable หลังกำหนดค่า" src="Image/floatVarDefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Float Variable หลังกำหนดค่า" src="../Image/floatVarDefined.png"><br>
    ตัวอย่างข้อมูล Float Variable หลังกำหนดค่า</center><br>
 
 3. Double Variable <br>
    Double Variable เป็นตัวแปรพื้นฐานของ C++ ที่ใช้บรรจุข้อมูลได้แบบเดียวกับ Float Variable แต่สามารถจัดเก็บได้มากกว่า Float 2 เท่า<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Double Variable" src="Image/definingDouble.png"><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Double Variable" src="../Image/definingDouble.png"><br>
    วิธีการประกาศตัวแปรและค่า Double Variable</center>
-   <center><img title="ตัวอย่างข้อมูล Double Variable ก่อนกำหนดค่า" src="Image/doubleVarUndefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Double Variable ก่อนกำหนดค่า" src="../Image/doubleVarUndefined.png"><br>
    ตัวอย่างข้อมูล Double Variable ก่อนกำหนดค่า</center>
-   <center><img title="ตัวอย่างข้อมูล Double Variable หลังกำหนดค่า" src="Image/doubleVarDefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Double Variable หลังกำหนดค่า" src="../Image/doubleVarDefined.png"><br>
    ตัวอย่างข้อมูล Double Variable หลังกำหนดค่า</center><br>
 
 4. Character Variable <br>
    Character Variable เป็นตัวแปรพื้นฐานของ C++ ที่ใช้บรรจุข้อมูลตัวอักษร โดยข้อมูลที่เราประกาศค่าให้กับตัวแปรจะสามารถอยู่ในรูปแบบของ ตัวอักษร หรือ รหัส ASCII ก็ได้<br>
-   <center><img title="วิธีการประกาศตัวแปรและค่า Character Variable" src="Image/definingChar.png"><br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Character Variable" src="../Image/definingChar.png"><br>
    วิธีการประกาศตัวแปรและค่า Character Variable</center>
-   <center><img title="ตัวอย่างข้อมูล Character Variable ก่อนกำหนดค่า" src="Image/charVarUndefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Character Variable ก่อนกำหนดค่า" src="../Image/charVarUndefined.png"><br>
    ตัวอย่างข้อมูล Character Variable ก่อนกำหนดค่า</center>
-   <center><img title="ตัวอย่างข้อมูล Character Variable หลังกำหนดค่า" src="Image/charVarDefined.png"><br>
+   <center><img title="ตัวอย่างข้อมูล Character Variable หลังกำหนดค่า" src="../Image/charVarDefined.png"><br>
    ตัวอย่างข้อมูล Character Variable หลังกำหนดค่า</center><br>
 
 5. Boolean Variable <br>
