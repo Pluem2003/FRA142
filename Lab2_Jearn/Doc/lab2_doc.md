@@ -37,6 +37,16 @@
 3. variable ที่เป็น pointer ยังสามารถนำมาชี้ variable ประเภทอื่น ๆ ได้อีก เช่น float, double, char, bool หรืออาจจะชี้ pointer ด้วยกันเอง<br></br>
     <img src="../Image/part1.3.png"><br></br>
 
+4. การใช้ "*" (Asterisk) และ "&" (Ampersand) เป็นแบบ definitions/declare และแบบ expression จะมีความหมายและการใช้งานที่แตกต่างกัน โดยสามารถสรุปได้ดังตารางด้านล่างนี้ <br></br>
+<p align="center">
+
+|   | definition/declare |  expression |
+|:-:|:------------------:|:-----------:|
+| * <br> (Asterisk) | ประกาศ variable ประเภท pointer <br> Ex: int *x = NULL; | รับหรือเปลี่ยนค่าตำแหน่ง address <br> ที่ pointer x ชี้ (Dereference) <br> Ex: *x = 3; |
+| & <br> (Ampersand) | ประกาศ variable ประเภท reference <br> (ยังไม่ต้องสนใจตอนนี้)| address ของ variable <br> Ex: x = &y; |
+
+</p></br>
+
 #### Exercise 1:
     ลองสร้าง variable 1 ตัวขึ้นมาและแสดงค่าและ adress ของ variable นั้นบน terminal
     จากนั้นลองเปลี่ยนค่าของ variable ตัวนั้นและแสดงค่าและ adress ของ variable บน terminal อีกครั้ง
@@ -54,7 +64,7 @@
     <img src="../Image/part2.png"><br></br>
 
 #### Exercise 3:
-    ลองเขียน function Call_by_Value และ Call_by_Reference ตามตัวอย่างด้านบน และลองใช้งาน และแสดงผลค่าของตัวแปรเมื่อเข้า function ผ่าน terminal 
+    ลองเขียน function callByValue และ callByReference ตามตัวอย่างด้านบน และลองใช้งาน และแสดงผลค่าของตัวแปรเมื่อเข้า function ผ่าน terminal 
 
 #### Exercise 4: Call by Value
     เขียน function (function ประเภท tuple) สำหรับการสลับค่าระหว่าง 2 variables (variable ประเภท int) และ return ค่าใหม่ออกมา
