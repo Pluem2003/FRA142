@@ -5,55 +5,72 @@ using namespace std;
 
 void variabletypes(){
 
-    char test1;
-    int lenTest2;
-    double lenTest3;
-    float lenTest4;
-    bool test5;
+    char charExample;
+    int intExample;
+    double doubleExample;
+    float floatExample;
+    bool booleanExample;
+
+    int intExample;
+    intExample = 100;
+
+    float floatExample;
+    floatExample = 100.5;
+
+    double doubleExample;
+    doubleExample = 10.5;
 
     cout << "-----------------------------------------------------" << endl;
-    cout << "length of string object : " << lenTest2 << endl;
-    cout << "Size of int variable : " << sizeof(lenTest2) << " bytes." << endl;
+    cout << "Value of intExample : " << intExample << endl;
+    cout << "Size of intExample : " << sizeof(intExample) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    cout << "length of string object : " << lenTest3 << endl;
-    cout << "Size of int variable : " << sizeof(lenTest3) << " bytes." << endl;
+    cout << "Value of doubleExample : " << doubleExample << endl;
+    cout << "Size of doubleExample : " << sizeof(doubleExample) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
-    cout << "length of string object : " << lenTest4 << endl;
-    cout << "Size of int variable : " << sizeof(lenTest4) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-
-    string test2 = "Hello World!";
-    lenTest2 = test2.size()/sizeof(char);
-    lenTest3 = test2.size()/sizeof(char);
-    lenTest4 = test2.size()/sizeof(char);
-
-    test1 = 116;
-    cout << "Charactor : " << test1 << endl;
-    test1 = 't';
-    cout << "Charactor : " << test1 << endl;
-    cout << "Size of char variable : " << sizeof(test1) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-    cout << "String : " << test2 << endl;
-    cout << "Size of string object : " << test2.size() << " bytes." << endl;
-    cout << "length of string object : " << lenTest2 << " letters." << endl;
-    cout << "Size of int variable : " << sizeof(lenTest2) << " bytes." << endl;
-    cout << "length of string object : " << lenTest3 << " letters." << endl;
-    cout << "Size of int variable : " << sizeof(lenTest3) << " bytes." << endl;
-    cout << "length of string object : " << lenTest4 << " letters." << endl;
-    cout << "Size of int variable : " << sizeof(lenTest4) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-    cout << "Boolean : " << test5 << endl;
-    test5 = (lenTest2 < lenTest3);
-    cout << "Boolean : " << test5 << endl;
-    cout << "Size of boolean variable : " << sizeof(test5) << " bytes." << endl;
+    cout << "Value of floatExample : " << floatExample << endl;
+    cout << "Size of floatExample : " << sizeof(floatExample) << " bytes." << endl;
     cout << "-----------------------------------------------------" << endl;
 
+    intExample = 100;
+    doubleExample = 10.5;
+    floatExample = 100.5;
+
+    char charArrayExample[13] = "Hello World!";
+
+    cout << "Charactor : " << charExample << endl;
+    charExample = 116;
+    cout << "Charactor : " << charExample << endl;
+    charExample = 't';
+    cout << "Charactor : " << charExample << endl;
+    cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Character array : " << charArrayExample << endl;
+    cout << "Size of character array : " << sizeof(charArrayExample) << " bytes." << endl;
+    cout << "Size of character array : " << (sizeof(charArrayExample)/sizeof(char))-1 << " letters." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Value of intExample : " << intExample << endl;
+    cout << "Size of intExample : " << sizeof(intExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Value of doubleExample : " << doubleExample << endl;
+    cout << "Size of doubleExample : " << sizeof(doubleExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Value of floatExample : " << floatExample << endl;
+    cout << "Size of floatExample : " << sizeof(floatExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Value of booleanExample : " << booleanExample << endl;
+    booleanExample = (doubleExample < floatExample);
+    cout << "Value of booleanExample : " << booleanExample << endl;
+    cout << "Size of booleanExample : " << sizeof(booleanExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
 }
 
 void switchCase(){
-    int monthNum = 0;
-    cout << "Month number : ";
-    cin >> monthNum;
+    int monthNum = 5;
     switch (monthNum){
         case 1:
             cout << "January" << endl;
@@ -98,14 +115,12 @@ void switchCase(){
 }
 
 void ifElse(){
-    int a;
-    cout << "Input some counting number : ";
-    cin >> a;
-    cout << "Result of a < 5 : " << (a < 5) << endl;
-    if (a < 5){
+    int conditionVariable = 0;
+    cout << "Result of a < 5 : " << (conditionVariable < 5) << endl;
+    if (conditionVariable < 5){
         cout << "variable a is lower than 5." << endl;
     }
-    else if (a > 5){
+    else if (conditionVariable > 5){
         cout << "variable a is greater than 5." << endl;
     }
     else{
@@ -113,33 +128,35 @@ void ifElse(){
     }
 }
 
+void doWhileLoop(){
+    int conditionVariable = 5;
+    do {
+        conditionVariable--;
+        cout << "Value of conditionVariable : " << conditionVariable << endl;
+    }
+    while (conditionVariable > 5);
+}
+
 void whileLoop(){
-    int i = 0;
-    int b = 0;
-    cout << "Input some counting number : ";
-    cin >> b;
-    cout << "b : " << b << endl;
-    while (b > 5){
-        i++;
-        b -= i;
-        cout << "b : " << b << endl;
+    int conditionVariable = 10;
+    while (conditionVariable > 5){
+        conditionVariable--;
+        cout << "Value of conditionVariable : " << conditionVariable << endl;
     }
 }
 
 void forLoop(){
-    int c = 0;
-    cout << "Input some counting number : ";
-    cin >> c;
-    for (int j = 0; j < c; j++){
-        cout << "j : " << j << endl;
+    int conditionVariable = 10;
+    for (int forLoopVariable = 0; forLoopVariable < conditionVariable; forLoopVariable++){
+        cout << "Value of forLoopVariable : " << forLoopVariable << endl;
     }
 }
 
 int main(){
-    cout << "Welcome to 1st lab in FRA142" << endl;
     variabletypes();
     // switchCase();
     // ifElse();
+    // doWhileLoop();
     // whileLoop();
     // forLoop();
     return 0;
