@@ -155,10 +155,10 @@ void forLoop(){
 
 int main(){
     // variabletypes();
-    switchCase();
+    // switchCase();
     // ifElse();
     // doWhileLoop();
     // whileLoop();
-    // forLoop();
+    forLoop();
     return 0;
 }
