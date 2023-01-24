@@ -26,7 +26,8 @@ void variabletypes(){
     doubleExample = 10.5;
     floatExample = 100.5;
 
-    char charArrayExample[13] = "Hello World!";
+    char charArrayExample[] = "Hello World!";
+    int intArrayExample[] = {1, 2, 3, 4};
 
     cout << "Character : " << charExample << endl;
     cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
@@ -36,11 +37,6 @@ void variabletypes(){
     charExample = 't';
     cout << "Character : " << charExample << endl;
     cout << "Size of char variable : " << sizeof(charExample) << " bytes." << endl;
-    cout << "-----------------------------------------------------" << endl;
-
-    cout << "Character array : " << charArrayExample << endl;
-    cout << "Size of character array : " << sizeof(charArrayExample) << " bytes." << endl;
-    cout << "Size of character array : " << (sizeof(charArrayExample)/sizeof(char))-1 << " letters." << endl;
     cout << "-----------------------------------------------------" << endl;
 
     cout << "Value of intExample : " << intExample << endl;
@@ -56,9 +52,20 @@ void variabletypes(){
     cout << "-----------------------------------------------------" << endl;
 
     cout << "Value of booleanExample : " << booleanExample << endl;
+    cout << "Size of booleanExample : " << sizeof(booleanExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
     booleanExample = (doubleExample < floatExample);
     cout << "Value of booleanExample : " << booleanExample << endl;
     cout << "Size of booleanExample : " << sizeof(booleanExample) << " bytes." << endl;
+    cout << "-----------------------------------------------------" << endl;
+
+    cout << "Character array : " << charArrayExample << endl;
+    cout << "Size of character array : " << sizeof(charArrayExample) << " bytes." << endl;
+    cout << "Length of character array : " << (sizeof(charArrayExample)/sizeof(char))-1 << " letters." << endl;
+    cout << "-----------------------------------------------------" << endl;
+    cout << "Int array : {" << intArrayExample[0] << ", " << intArrayExample[1] << ", " << intArrayExample[2] << ", " << intArrayExample[3] << "}" << endl;
+    cout << "Size of int array : " << sizeof(intArrayExample) << " bytes." << endl;
+    cout << "Length of int array : " << (sizeof(intArrayExample)/sizeof(int)) << " numbers." << endl;
     cout << "-----------------------------------------------------" << endl;
 }
 
@@ -108,8 +115,7 @@ void switchCase(){
 }
 
 void ifElse(){
-    int conditionVariable = 0;
-    cout << "Result of a < 5 : " << (conditionVariable < 5) << endl;
+    int conditionVariable = 6;
     if (conditionVariable < 5){
         cout << "variable a is lower than 5." << endl;
     }
@@ -146,9 +152,9 @@ void forLoop(){
 }
 
 int main(){
-    variabletypes();
+    // variabletypes();
     // switchCase();
-    // ifElse();
+    ifElse();
     // doWhileLoop();
     // whileLoop();
     // forLoop();
