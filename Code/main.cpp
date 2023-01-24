@@ -132,17 +132,17 @@ void ifElse(){
 void doWhileLoop(){
     int conditionVariable = 5;
     do {
-        conditionVariable--;
         cout << "Value of conditionVariable : " << conditionVariable << endl;
+        conditionVariable++;
     }
-    while (conditionVariable > 5);
+    while (conditionVariable > 5 && conditionVariable < 10);
 }
 
 void whileLoop(){
     int conditionVariable = 10;
     while (conditionVariable > 5){
-        conditionVariable--;
         cout << "Value of conditionVariable : " << conditionVariable << endl;
+        conditionVariable--;
     }
 }
 
@@ -158,7 +158,7 @@ int main(){
     // switchCase();
     // ifElse();
     // doWhileLoop();
-    // whileLoop();
-    forLoop();
+    whileLoop();
+    // forLoop();
     return 0;
 }

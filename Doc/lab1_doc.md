@@ -92,10 +92,14 @@
 โปรแกรมในการวนซ้ำเป็นโปรแกรมที่ใช้ลักษณะการสร้างเง่ือนไขมาเป็นข้อกำหนดในการทำงานและหยุดทำงานการวนซ้ำซึ่งจะมีอยู่ 3 วิธีการหลัก
 1. While-Loop <br>
    While-Loop เป็นการสร้างการวนซ้ำจากเงื่อนไขที่กำหนดไว้ในคำสั่ง while() เพื่อจะควบคุมการทำงาน <br>
-   โดยจะทำการเริ่มทำงานหรือวนซ้ำเมื่อเงื่อนไขถูกต้องและหยุดการทำงานเมื่อเงื่อนไขผิด
+   โดยจะทำการเริ่มทำงานหรือวนซ้ำเมื่อเงื่อนไขถูกต้องและหยุดการทำงานเมื่อเงื่อนไขผิด <br>
+   <center><img title="การสร้าง While-Loop" src="../Image/createWhileLoop.png"><br>การสร้าง While-Loop<br></center>
+   <center><img title="ผลลัพธ์จาก While-Loop ข้างต้น" src="../Image/resultWhileLoop.png"><br>ผลลัพธ์จาก While-Loop ข้างต้น</center>
 2. Do While-Loop <br>
    Do While-Loop จะมีลักษณะการสร้างเงื่อนไขเพื่อควบคุมการทำงานเหมือน While-Loop <br>
    แต่จะแตกต่างกันที่ Do While-Loop จะเริ่มทำงานทันทีโดยไม่สนใจเงื่อนไข แล้วค่อยเริ่มตรวจเงื่อนไขในการวนซ้ำครั้งต่อไป <br>
+    <center><img title="การสร้าง Do While-Loop" src="../Image/createDoWhileLoop.png"><br>การสร้าง Do While-Loop<br></center>
+    <center><img title="ผลลัพธ์จาก Do While-Loop ข้างต้น" src="../Image/resultDoWhileLoop.png"><br>ผลลัพธ์จาก Do While-Loop ข้างต้น</center>
 3. For-Loop <br>
    For-Loop มีลักษณะการควบคุมการทำงานด้วยเงื่อนไขเหมือน While-loop <br>
    แต่จะมีความแตกต่างกันในการกำหนดขอบเขตการวนซ้ำโดยจะมีการสร้างตัวแปรเพิ่มเติมขึ้นมาที่ใช้ในการวนซ้ำของ For-Loop ภายใน for() <br>
