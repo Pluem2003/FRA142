@@ -99,7 +99,7 @@
 3. For-Loop <br>
    For-Loop มีลักษณะการควบคุมการทำงานด้วยเงื่อนไขเหมือน While-loop <br>
    แต่จะมีความแตกต่างกันในการกำหนดขอบเขตการวนซ้ำโดยจะมีการสร้างตัวแปรเพิ่มเติมขึ้นมาที่ใช้ในการวนซ้ำของ For-Loop ภายใน for() <br>
-    <center><img title="การสร้าง For-Loop" src="../Image/createForLoop.png"><br>การสร้าง For-Loop</center>
+    <center><img title="การสร้าง For-Loop" src="../Image/createForLoop.png"><br>การสร้าง For-Loop<br></center>
     <center><img title="ผลลัพธ์จาก For-Loop ข้างต้น" src="../Image/resultForLoop.png"><br>ผลลัพธ์จาก For-Loop ข้างต้น</center>
 
 ## In-Lab
