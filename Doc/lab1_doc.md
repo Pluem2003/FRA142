@@ -56,22 +56,15 @@
    ตัวอย่างข้อมูล Boolean Variable หลังกำหนดค่า</center><br>
 
 6. Array <br>
-   Array จะเป็น variable ที่ใช้เก็บข้อมูลเป็นกลุ่มอย่างโดยจะสร้างขึ้นจาก Variable พื้นฐาน เช่น Int Float Char เป็นต้น
-
-   <center><img title="วิธีการประกาศตัวแปรและค่า Array of character" src="../Image/charArrDefining.png"></center><br>
-   <center>วิธีการประกาศตัวแปรและค่า Array of character</center>
-
-   <center><img title="ขนาดและความยาวของ Array of character" src="../Image/charArrData.png"></center><br>
-   <center>ขนาดและความยาวของ Array of character</center>
-
-   จากขนาดและความยาวที่แตกต่างกันในกรณีพิเศษของ Array of characters จะมีการเก็บ '\0' ไว้เป็นตัวสุดท้ายเสมอเพื่อบอกตำแหน่งการสิ้นสุดของข้อมูลที่จัดเก็บอยู่
-
-   <center><img title="วิธีการประกาศตัวแปรและค่า Array of int" src="../Image/intArrDefining.png"></center><br>
-   <center>วิธีการประกาศตัวแปรและค่า Array of Int</center>
-
-   <center><img title="ขนาดและความยาวของ Array of int" src="../Image/intArrData.png"></center><br>
-   <center>ขนาดและความยาวของ Array of Int</center>
-
+   Array จะเป็น variable ที่ใช้เก็บข้อมูลเป็นกลุ่มอย่างโดยจะสร้างขึ้นจาก Variable พื้นฐาน เช่น Int Float Char เป็นต้น<br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Array of character" src="../Image/charArrDefining.png"><br>
+   วิธีการประกาศตัวแปรและค่า Array of characters</center>
+   <center><img title="ขนาดและความยาวของ Array of character" src="../Image/charArrData.png"><br>
+   ขนาดและความยาวของ Array of characters</center>
+   จากขนาดและความยาวที่แตกต่างกันในกรณีพิเศษของ Array of characters จะมีการเก็บ '\0' ไว้เป็นตัวสุดท้ายเสมอเพื่อบอกตำแหน่งการสิ้นสุดของข้อมูลที่จัดเก็บอยู่<br>
+   <center><img title="วิธีการประกาศตัวแปรและค่า Array of int" src="../Image/intArrDefining.png"><br>
+   วิธีการประกาศตัวแปรและค่า Array of characters</center>
+   <center><img title="ขนาดและความยาวของ Array of int" src="../Image/intArrData.png"></center>
    จากทั้ง 2 ตัวอย่างขนาดของข้อมูลของ Array จะขึ้นอยู่กับชนิดของ Variable ที่ใช่ในการสร้างและจำนวนข้อมูลที่เก็บอยู่<br>
    ** ข้อกำหนดสำคัญของ Array **<br>
    - Array ไม่สามารถเปลี่ยนแปลงขนาดใหม่หลังจากประกาศแล้วได้อีก
@@ -81,12 +74,12 @@
  1. If-Else Condition <br>
     If-Else Condition เป็นวิธีการสร้างเงื่อนไขโดยใช้ตัวแปรที่ประกาศขึ้นมาแล้วเป็นตัวกำหนดเงื่อนไข <br>
     ซึ่งการสร้างเงื่อนไขโดยใช้ If-Else จะมีตัวเลือกในการสร้างเงื่อนไข 3 ตัวเลือกคือ<br>
-    <center><img title="ตัวเลือกในการสร้างเงื่อนไข" src="../Image/typeofIfelse.png">ตัวเลือกในการสร้างเงื่อนไข<br></center><br>
+    <center><img title="ตัวเลือกในการสร้างเงื่อนไข" src="../Image/typeofIfelse.png"><br>ตัวเลือกในการสร้างเงื่อนไข</center>
     หลักการทำงานในการพิจารณาเงื่อนไขของ If-Else Condition นั้นจะ <u>พิจารณาตามลำดับของเงื่อนไข</u> ที่เราสร้างขึ้น<br>
     ทั้งนี้ผลลัพธ์ที่จะเกิดขึ้นจากเงื่อนไขนั้นจะ <u>ขึ้นอยู่กับค่าของตัวแปร</u> ที่เรากำหนดไว้ในเงื่อนไขนั้นๆ เช่น
-    <center><img title="ตัวแปรที่ใช้กำหนดเงื่อนไข" src="../Image/conditionVar.png">ตัวแปรที่ใช้กำหนดเงื่อนไข<br></center><br>
-    <center><img title="ผลลัพธ์จากโปรแกรมที่ได้สร้างเงื่อนไขและตัวแปรตามรูปข้างต้น" src="../Image/conditionResult.png">ผลลัพธ์จากโปรแกรมที่ได้สร้างเงื่อนไขและตัวแปรตามรูปข้างต้น<br></center><br>
- 2. Switch-Case Condition<br>
+    <center><img title="ตัวแปรที่ใช้กำหนดเงื่อนไข" src="../Image/conditionVar.png"><br>ตัวแปรที่ใช้กำหนดเงื่อนไข</center>
+    <center><img title="ผลลัพธ์จากโปรแกรมที่ได้สร้างเงื่อนไขและตัวแปรตามรูปข้างต้น" src="../Image/conditionResult.png"><br>ผลลัพธ์จากโปรแกรมที่ได้สร้างเงื่อนไขและตัวแปรตามรูปข้างต้น</center>
+ 2. Switch-Case Condition <br>
     Switch-Case Condition เป็นการสร้างเงื่อนไขโดยใช้ตัวแปรในลักษณะเดียวกันกับ If-Else Condition <u>แต่จะมีความแตกต่างในการสั่งการและการสร้างเงื่อนไข</u><br>
     - Switch-Case Condition จะทำการ <u>สั่งการโดยพิจารณาแบบเฉพาะเจาะจงไปที่เงื่อนไขที่มีรูปแบบนั้นทันที</u> ต่างจาก If-Else Condition ที่สั่งการเป็นลำดับก่อนหลัง
     - Switch-Case Condition จะสร้างเงื่อนไขโดยการเจาะจงค่าของตัวแปรที่เรากำหนดไว้โดยไม่ซ้ำกัน ตัวอย่างเช่น
