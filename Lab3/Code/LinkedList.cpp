@@ -71,8 +71,10 @@ Node* LinkedList::remove(int pos)
 void LinkedList::print()
 {
     Node *temp = head;
+    int list[size];
     for(int i=0; i<size; i++){
-        cout << temp->getValue() << endl;
+        cout << temp->getValue() << " ";
         temp = temp->getNext();
     }
+    cout << endl;
 }
