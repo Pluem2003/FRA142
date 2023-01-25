@@ -14,7 +14,6 @@ int main(){
 
     LinkedList list = LinkedList();
 
-    // list.insert(&n1, 0);
     list.insert(&n1, 0);
     list.insert(&n2, 0);
     list.insert(&n3, 1);

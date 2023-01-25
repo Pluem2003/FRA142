@@ -53,12 +53,12 @@ Node* LinkedList::remove(int pos)
     for(int i=0; i<size-1; i++){
         if (pos == 0){
             head = head->getNext();
-            delete temp;
+            // delete temp;
         }else if(i == pos-1){
             Node *del = temp->getNext();
             Node *result = temp->getNext();
             temp->setNext(del->getNext());
-            delete del;
+            // delete del;
         }
         temp = temp->getNext();
     }
